@@ -26,20 +26,20 @@ This Multimeter measures various physical parameters by using very basic princip
   **1. Voltage**
 Voltage could be measured by scaling the external higher voltage to 0-5v which is suitable for arduino.The arduino measures the voltage through its digital input pin in the range from 0 to 1023, which can be scaled down to 0 to 5v.
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/8219d129-842e-472f-a81e-eb54fcce76e0" />
-<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/227c9165-2fa0-4723-9076-12e84fe5a696" />
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/227c9165-2fa0-4723-9076-12e84fe5a696" />
 
   **2. Resistance**
 For measuring a resistor, we can connect it to a known comparable resistor and then applying a voltage to it. Then according to voltage divider formula we can estimate the resistor value.
 We already have a known resistor in the circuit and can calculate V(out) and V(in) with the help of the digital input pins of arduino, then calculate R1 with the help of the voltage divider formula (given in above figure).
-<img width="1170" height="1124" alt="image" src="https://github.com/user-attachments/assets/c0096c67-5814-406f-a561-3b24cb3becbb" />
-<img width="1172" height="1114" alt="image" src="https://github.com/user-attachments/assets/d3a44dbb-4e44-41d1-b600-df94baebdafc" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/c0096c67-5814-406f-a561-3b24cb3becbb" />
+<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/d3a44dbb-4e44-41d1-b600-df94baebdafc" />
 
 
   **3. Capacitance**
 For capacitance we can use a simple RC circuit, apply a known voltage and resistance to it then measure the time taken for the capacitor to charge to 50%. After that we can use the formula given below to calculate capacitance
 C = -t  / ( R * ln(2) )
 where 't' is the charging time and 'R' is the known resistance from the circuit.
-<img width="1178" height="1162" alt="image" src="https://github.com/user-attachments/assets/70a0d003-06fe-4074-b270-9fbbbf9e869c" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/70a0d003-06fe-4074-b270-9fbbbf9e869c" />
 
   **4. Inductance**
 When an LC tank circuit is given an impulse input, it starts to oscillate at its resonance frequency. This oscillation dies out after a while due to the resistance present in the circuit. We can measure that frequency using the arduino by first converting the sinusoidal oscillation to a square wave oscillation and checking the time duration between those pulses. To do this we can use the internal comparator present in the arduino.
@@ -47,7 +47,7 @@ At resonance, the reactances of inductor and capacitor will be equal, therefore
 Xl = Xc
 w.L = 1/(w.C)
 w = 1 / sqrt(LC) ← this is the resonance frequency of the LC tank
-<img width="1174" height="1164" alt="image" src="https://github.com/user-attachments/assets/e6c0c65a-64e3-48a6-ad1f-a2d4c492da89" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e6c0c65a-64e3-48a6-ad1f-a2d4c492da89" />
 
  
 So if we find this, we can find the value of inductance as:-
@@ -56,7 +56,7 @@ L = 1/(C.w^2)
  **5. Diode's Forward Voltage**
  6. The voltage drop across a diode depends on the current flowing through it. When the diode is forward biased, the current through the diode is nearly 0 till the applied voltage is near the knee voltage. When the applied voltage is more than the knee voltage of the diode, the current rapidly increases. Then the voltage across the diode could be considered nearly constant for a very large change in current. For example, for silicon diodes, its typically considered 0.6-0.7V.
 Since this voltage is nearly constant, it becomes a useful property to know about a diode. So by passing a reasonably large current through it and reading the voltage across it, we can determine its knee voltage
-<img width="1178" height="1162" alt="image" src="https://github.com/user-attachments/assets/6fb04586-910c-44c5-8ef7-8714c15f44bb" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6fb04586-910c-44c5-8ef7-8714c15f44bb" />
 
 
 ## Future Scope
