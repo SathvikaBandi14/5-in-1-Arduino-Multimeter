@@ -1,13 +1,13 @@
 # 5-in-1-Arduino-Multimeter
 This project presents the development of a low-cost, Arduino-based digital multimeter capable of measuring five fundamental electrical quantities: voltage, resistance, capacitance, inductance and diode's forward voltage. The system reads electrical signals using simple circuit techniques such as voltage dividers and shunt resistors, and displays the measured values on a 16x2 LCD screen. Designed primarily for educational and prototyping purposes, this multimeter offers a compact and affordable solution for basic electrical measurements.
-A Project By:
+#A Project By:
 Mentors: Kanishk Choudhary, Mohnish Raj Mani, Sathvika Bandi
 Mentees: Arya Arikeri, Vineet Kumar Singh, Vaibhav Porwal
 
-Aim
+#Aim
 The aim of the project is to successfully design a multimeter using Arduino that can measure and display basic electrical parameters such as voltage, resistance, and capacitance.
 
-Introduction
+#Introduction
 A multimeter is an essential tool used to measure basic electrical parameters such as voltage, current, and resistance. This project focuses on designing a simple and cost-effective digital multimeter using an Arduino board. By employing basic circuit techniques like voltage dividers and sensing resistors, the device can accurately measure electrical quantities and serve as a practical learning tool for students and electronics enthusiasts.
 
 Literature Survey
