@@ -16,10 +16,14 @@ Digital multimeters are vital instruments used to measure electrical parameters 
 Early digital multimeters used discrete analog components and dedicated ADC chips to convert analog signals into digital readings. These devices often relied on complex circuitry and were relatively expensive. Early attempts to design DIY digital multimeters utilized microcontrollers such as PIC and AVR series. These microcontrollers facilitated digital processing of signals and simplified calibration and display. However, the limited processing power and resources often restricted their functionality.
 <img width="500" height="500"  alt="image" src="https://github.com/user-attachments/assets/177a2756-e16b-44a6-b7a4-775b6bf63ea2" />
 
+
+
 **2. Arduino-Based Multimeters**
 The introduction of Arduino revolutionized hobbyist electronics, enabling rapid prototyping with an easy-to-use platform. Numerous projects have documented the development of Arduino-based multimeters capable of measuring voltage, current, and resistance by leveraging Arduino’s built-in 10-bit ADC. These designs typically use voltage dividers for voltage measurements and shunt resistors for current sensing, paired with resistor-based circuits to measure resistance.
 Many Arduino multimeter projects display readings on 16x2 LCDs or via serial communication to a computer, enhancing usability and data logging. Arduino’s open-source nature and large community support have led to continuous improvements and additional features such as capacitance measurement and auto-ranging.
 <img width="2550" height="1424" alt="image" src="https://github.com/user-attachments/assets/30934576-b440-41fe-8f7c-b9fbb0ff6d3b" width="300" />
+
+
 
 ## Methodology
 This Multimeter measures various physical parameters by using very basic principles such as ohms law, RC circuits etc.
@@ -32,7 +36,7 @@ Voltage could be measured by scaling the external higher voltage to 0-5v which i
 For measuring a resistor, we can connect it to a known comparable resistor and then applying a voltage to it. Then according to voltage divider formula we can estimate the resistor value.
 We already have a known resistor in the circuit and can calculate V(out) and V(in) with the help of the digital input pins of arduino, then calculate R1 with the help of the voltage divider formula (given in above figure).
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/c0096c67-5814-406f-a561-3b24cb3becbb" />
-<img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/d3a44dbb-4e44-41d1-b600-df94baebdafc" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d3a44dbb-4e44-41d1-b600-df94baebdafc" />
 
 
   **3. Capacitance**
