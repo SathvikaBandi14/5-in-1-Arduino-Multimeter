@@ -38,26 +38,25 @@ ________________________________________________________________________________
   **2. Resistance**
 For measuring a resistor, we can connect it to a known comparable resistor and then applying a voltage to it. Then according to voltage divider formula we can estimate the resistor value.
 We already have a known resistor in the circuit and can calculate V(out) and V(in) with the help of the digital input pins of arduino, then calculate R1 with the help of the voltage divider formula (given in above figure).
-__________________________________________________________________________________________________________________________________________________________________________
+___
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/c0096c67-5814-406f-a561-3b24cb3becbb" />
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/d3a44dbb-4e44-41d1-b600-df94baebdafc" />
-__________________________________________________________________________________________________________________________________________________________________________
+___
 
   **3. Capacitance**
 For capacitance we can use a simple RC circuit, apply a known voltage and resistance to it then measure the time taken for the capacitor to charge to 50%. After that we can use the formula given below to calculate capacitance
 C = -t  / ( R * ln(2) )
 where 't' is the charging time and 'R' is the known resistance from the circuit.
-__________________________________________________________________________________________________________________________________________________________________________
+___
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/70a0d003-06fe-4074-b270-9fbbbf9e869c" />
-__________________________________________________________________________________________________________________________________________________________________________
-
+___
   **4. Inductance**
 When an LC tank circuit is given an impulse input, it starts to oscillate at its resonance frequency. This oscillation dies out after a while due to the resistance present in the circuit. We can measure that frequency using the arduino by first converting the sinusoidal oscillation to a square wave oscillation and checking the time duration between those pulses. To do this we can use the internal comparator present in the arduino.
 At resonance, the reactances of inductor and capacitor will be equal, therefore
 Xl = Xc
 w.L = 1/(w.C)
 w = 1 / sqrt(LC) ← this is the resonance frequency of the LC tank
-__________________________________________________________________________________________________________________________________________________________________________
+___
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/e6c0c65a-64e3-48a6-ad1f-a2d4c492da89" />
 
 So if we find this, we can find the value of inductance as:-
