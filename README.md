@@ -1,16 +1,16 @@
 # 5-in-1-Arduino-Multimeter
 This project presents the development of a low-cost, Arduino-based digital multimeter capable of measuring five fundamental electrical quantities: voltage, resistance, capacitance, inductance and diode's forward voltage. The system reads electrical signals using simple circuit techniques such as voltage dividers and shunt resistors, and displays the measured values on a 16x2 LCD screen. Designed primarily for educational and prototyping purposes, this multimeter offers a compact and affordable solution for basic electrical measurements.
-#A Project By:
+##A Project By:
 Mentors: Kanishk Choudhary, Mohnish Raj Mani, Sathvika Bandi
 Mentees: Arya Arikeri, Vineet Kumar Singh, Vaibhav Porwal
 
-#Aim
+##Aim
 The aim of the project is to successfully design a multimeter using Arduino that can measure and display basic electrical parameters such as voltage, resistance, and capacitance.
 
-#Introduction
+##Introduction
 A multimeter is an essential tool used to measure basic electrical parameters such as voltage, current, and resistance. This project focuses on designing a simple and cost-effective digital multimeter using an Arduino board. By employing basic circuit techniques like voltage dividers and sensing resistors, the device can accurately measure electrical quantities and serve as a practical learning tool for students and electronics enthusiasts.
 
-Literature Survey
+##Literature Survey
 Digital multimeters are vital instruments used to measure electrical parameters such as voltage, current, and resistance. The evolution of multimeters has transitioned from purely analog devices to sophisticated digital instruments that offer higher accuracy, multiple functions, and user-friendly interfaces.
 1. Early Digital Multimeters
 Early digital multimeters used discrete analog components and dedicated ADC chips to convert analog signals into digital readings. These devices often relied on complex circuitry and were relatively expensive. Early attempts to design DIY digital multimeters utilized microcontrollers such as PIC and AVR series. These microcontrollers facilitated digital processing of signals and simplified calibration and display. However, the limited processing power and resources often restricted their functionality.
