@@ -16,7 +16,7 @@ Digital multimeters are vital instruments used to measure electrical parameters 
 Early digital multimeters used discrete analog components and dedicated ADC chips to convert analog signals into digital readings. These devices often relied on complex circuitry and were relatively expensive. Early attempts to design DIY digital multimeters utilized microcontrollers such as PIC and AVR series. These microcontrollers facilitated digital processing of signals and simplified calibration and display. However, the limited processing power and resources often restricted their functionality.
 <img width="500" height="500"  alt="image" src="https://github.com/user-attachments/assets/177a2756-e16b-44a6-b7a4-775b6bf63ea2" />
 
-
+__________________________________________________________________________________________________________________________________________________________________________
 
 **2. Arduino-Based Multimeters**
 The introduction of Arduino revolutionized hobbyist electronics, enabling rapid prototyping with an easy-to-use platform. Numerous projects have documented the development of Arduino-based multimeters capable of measuring voltage, current, and resistance by leveraging Arduino’s built-in 10-bit ADC. These designs typically use voltage dividers for voltage measurements and shunt resistors for current sensing, paired with resistor-based circuits to measure resistance.
