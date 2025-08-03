@@ -31,9 +31,11 @@ This Multimeter measures various physical parameters by using very basic princip
   **1. Voltage**
 Voltage could be measured by scaling the external higher voltage to 0-5v which is suitable for arduino.The arduino measures the voltage through its digital input pin in the range from 0 to 1023, which can be scaled down to 0 to 5v.
 __________________________________________________________________________________________________________________________________________________________________________
+
 <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/8219d129-842e-472f-a81e-eb54fcce76e0" />
 <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/227c9165-2fa0-4723-9076-12e84fe5a696" />
-__________________________________________________________________________________________________________________________________________________________________________
+
+___
 
   **2. Resistance**
 For measuring a resistor, we can connect it to a known comparable resistor and then applying a voltage to it. Then according to voltage divider formula we can estimate the resistor value.
