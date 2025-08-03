@@ -15,6 +15,7 @@ Digital multimeters are vital instruments used to measure electrical parameters 
 **1. Early Digital Multimeters**
 Early digital multimeters used discrete analog components and dedicated ADC chips to convert analog signals into digital readings. These devices often relied on complex circuitry and were relatively expensive. Early attempts to design DIY digital multimeters utilized microcontrollers such as PIC and AVR series. These microcontrollers facilitated digital processing of signals and simplified calibration and display. However, the limited processing power and resources often restricted their functionality.
 <img width="500" height="500"  alt="image" src="https://github.com/user-attachments/assets/177a2756-e16b-44a6-b7a4-775b6bf63ea2" />
+
 **2. Arduino-Based Multimeters**
 The introduction of Arduino revolutionized hobbyist electronics, enabling rapid prototyping with an easy-to-use platform. Numerous projects have documented the development of Arduino-based multimeters capable of measuring voltage, current, and resistance by leveraging Arduino’s built-in 10-bit ADC. These designs typically use voltage dividers for voltage measurements and shunt resistors for current sensing, paired with resistor-based circuits to measure resistance.
 Many Arduino multimeter projects display readings on 16x2 LCDs or via serial communication to a computer, enhancing usability and data logging. Arduino’s open-source nature and large community support have led to continuous improvements and additional features such as capacitance measurement and auto-ranging.
@@ -24,8 +25,8 @@ Many Arduino multimeter projects display readings on 16x2 LCDs or via serial com
 This Multimeter measures various physical parameters by using very basic principles such as ohms law, RC circuits etc.
   **1. Voltage**
 Voltage could be measured by scaling the external higher voltage to 0-5v which is suitable for arduino.The arduino measures the voltage through its digital input pin in the range from 0 to 1023, which can be scaled down to 0 to 5v.
-<img width="1172" height="1098" alt="image" src="https://github.com/user-attachments/assets/8219d129-842e-472f-a81e-eb54fcce76e0" />
-<img width="1170" height="226" alt="image" src="https://github.com/user-attachments/assets/227c9165-2fa0-4723-9076-12e84fe5a696" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/8219d129-842e-472f-a81e-eb54fcce76e0" />
+<img width="500" height="100" alt="image" src="https://github.com/user-attachments/assets/227c9165-2fa0-4723-9076-12e84fe5a696" />
 
   **2. Resistance**
 For measuring a resistor, we can connect it to a known comparable resistor and then applying a voltage to it. Then according to voltage divider formula we can estimate the resistor value.
